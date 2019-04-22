@@ -83,6 +83,7 @@ class Sections
         {
             $success = $DB->Query($sql,true);
             $success = $DB->Query($sql2,true);
+            dump('test');
         }
         if(!empty($activateCache))
             $catalog->clearCache($activateCache);
