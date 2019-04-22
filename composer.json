@@ -1,0 +1,16 @@
+{
+  "require": {
+    "faisalman/simple-excel-php": "0.3.*",
+    "phpoffice/phpspreadsheet": "^1.6",
+    "nikic/php-parser": "^4.2"
+  },
+  "autoload": {
+    "classmap": ["/srv/sites/lg2.mylgc.ru/www/local/service_scripts/vendor/exelreader/"],
+    "psr-4" : {
+      "LgCache\\": "/srv/sites/lg2.mylgc.ru/www/local/service_scripts/vendor/app"
+    },
+    "files" : [
+      "/srv/sites/lg2.mylgc.ru/www/bitrix/modules/main/include/prolog_before.php"
+    ]
+  }
+}
